@@ -16,6 +16,8 @@
 		71F5C4FE29573EE0004D09E1 /* JKTabBarExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F5C4FD29573EE0004D09E1 /* JKTabBarExampleTests.swift */; };
 		71F5C50829573EE0004D09E1 /* JKTabBarExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F5C50729573EE0004D09E1 /* JKTabBarExampleUITests.swift */; };
 		71F5C50A29573EE0004D09E1 /* JKTabBarExampleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F5C50929573EE0004D09E1 /* JKTabBarExampleUITestsLaunchTests.swift */; };
+		71F5C51729573F1C004D09E1 /* JKTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F5C51629573F1C004D09E1 /* JKTabBarController.swift */; };
+		71F5C519295757C8004D09E1 /* JKTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F5C518295757C8004D09E1 /* JKTabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		71F5C50329573EE0004D09E1 /* JKTabBarExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKTabBarExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71F5C50729573EE0004D09E1 /* JKTabBarExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKTabBarExampleUITests.swift; sourceTree = "<group>"; };
 		71F5C50929573EE0004D09E1 /* JKTabBarExampleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKTabBarExampleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		71F5C51629573F1C004D09E1 /* JKTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKTabBarController.swift; sourceTree = "<group>"; };
+		71F5C518295757C8004D09E1 /* JKTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JKTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				71F5C4EF29573EE0004D09E1 /* Assets.xcassets */,
 				71F5C4F129573EE0004D09E1 /* LaunchScreen.storyboard */,
 				71F5C4F429573EE0004D09E1 /* Info.plist */,
+				71F5C51629573F1C004D09E1 /* JKTabBarController.swift */,
+				71F5C518295757C8004D09E1 /* JKTabBar.swift */,
 			);
 			path = JKTabBarExample;
 			sourceTree = "<group>";
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71F5C51729573F1C004D09E1 /* JKTabBarController.swift in Sources */,
 				71F5C4EB29573EDF004D09E1 /* ViewController.swift in Sources */,
 				71F5C4E729573EDF004D09E1 /* AppDelegate.swift in Sources */,
 				71F5C4E929573EDF004D09E1 /* SceneDelegate.swift in Sources */,
+				71F5C519295757C8004D09E1 /* JKTabBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
